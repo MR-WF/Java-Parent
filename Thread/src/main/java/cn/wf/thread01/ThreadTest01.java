@@ -58,9 +58,6 @@ public class ThreadTest01 {
         thread1.start();
         thread2.start();
         thread3.start();
-
-
-
     }
 
     static class SeqThread extends Thread{
