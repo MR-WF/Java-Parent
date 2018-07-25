@@ -26,6 +26,7 @@ public class ConcurrentMap01 {
 
         Random random = new Random();
         Thread[] ths = new Thread[100];
+        //门栓，当门栓监控的值变为0的时候，门栓开启，可以接着往下执行，否则等待，countDownLatch.countDown()每门栓监测的值减1
         CountDownLatch countDownLatch = new CountDownLatch(ths.length);
         long start = System.currentTimeMillis();
         System.out.println("开始时间->"+start);

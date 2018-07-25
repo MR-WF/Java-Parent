@@ -11,7 +11,7 @@ package cn.wf.thread01;
  * @author: it.wf
  * @create: 2018-07-20 14:19
  **/
-public class ThreadTest01 {
+public class ThreadLocalTest01 {
 
     private static ThreadLocal<Integer> tCount = new ThreadLocal<Integer>(){
         //返回此线程局部变量的当前线程的“初始值”
@@ -49,7 +49,7 @@ public class ThreadTest01 {
     }
 
     public static void main(String[] args) {
-        ThreadTest01 t = new ThreadTest01();
+        ThreadLocalTest01 t = new ThreadLocalTest01();
         SeqThread thread = new SeqThread(t);
         SeqThread thread1 = new SeqThread(t);
         SeqThread thread2 = new SeqThread(t);
@@ -61,8 +61,8 @@ public class ThreadTest01 {
     }
 
     static class SeqThread extends Thread{
-        private ThreadTest01 tt;
-        SeqThread(ThreadTest01 threadTest01){
+        private ThreadLocalTest01 tt;
+        SeqThread(ThreadLocalTest01 threadTest01){
             this.tt = threadTest01;
         }
 
