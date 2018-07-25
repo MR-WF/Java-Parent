@@ -1,7 +1,5 @@
 package cn.wf.thread01.example;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
