@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>Thread</module>
+        <module>Tools</module>
     </modules>
 
     <parent>
