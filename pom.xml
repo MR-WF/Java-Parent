@@ -6,7 +6,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>Thread</module>
-        <module>Tools</module>
+        <module>spring-aop</module>
+        <module>netty</module>
+        <module>netty-dubbo</module>
     </modules>
 
     <parent>
@@ -25,15 +27,40 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <group.version>2.0.3.RELEASE</group.version>
+        <springboot.group.version>2.0.3.RELEASE</springboot.group.version>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!--
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>${springboot.group.version}</version>
+        </dependency>
+        -->
+        <!--
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-web</artifactId>
+           <version>${springboot.group.version}</version>
+        </dependency>
+         -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>${group.version}</version>
+                <version>${springboot.group.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -43,8 +70,22 @@
                  <version>4.12</version>
                  <scope>test</scope>
              </dependency>
+
         </dependencies>
     </dependencyManagement>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 
 

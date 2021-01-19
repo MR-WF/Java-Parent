@@ -1,0 +1,162 @@
+【执行初始化测试方法。。。。。。。。。。。。】 
+【创建持久化节点异常】/zk-watcher-2,测试,java.lang.NullPointerException 
+【执行初始化测试方法getData返回值。。。。。。。。。。。。】=null 
+【执行初始化测试方法。。。。。。。。。。。。】 
+【创建持久化节点异常】/zk-watcher-2,zz,java.lang.NullPointerException 
+【执行初始化测试方法getData返回值。。。。。。。。。。。。】=null 
+【执行初始化测试方法。。。。。。。。。。。。】 
+【创建持久化节点异常】/zk-watcher-2,zz,java.lang.NullPointerException 
+【执行初始化测试方法getData返回值。。。。。。。。。。。。】=null 
+Starting NettyDubboMain on LAPTOP-B8AN4EB4 with PID 2476 (E:\WorkSpace\Git\Java-Parent\netty-dubbo\target\classes started by WF in E:\WorkSpace\Git\Java-Parent) 
+No active profile set, falling back to default profiles: default 
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2cd2a21f: startup date [Thu Jan 14 15:54:44 CST 2021]; root of context hierarchy 
+Tomcat initialized with port(s): 8088 (http) 
+Root WebApplicationContext: initialization completed in 1166 ms 
+Servlet dispatcherServlet mapped to [/] 
+Mapping filter: 'characterEncodingFilter' to: [/*] 
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+Mapping filter: 'requestContextFilter' to: [/*] 
+【初始化ZooKeeper连接状态....】=CONNECTED 
+【执行初始化测试方法。。。。。。。。。。。。】 
+【执行初始化测试方法getData返回值。。。。。。。。。。。。】=zz 
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2cd2a21f: startup date [Thu Jan 14 15:54:44 CST 2021]; root of context hierarchy 
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+Registering beans for JMX exposure on startup 
+Tomcat started on port(s): 8088 (http) with context path '' 
+Started NettyDubboMain in 2.45 seconds (JVM running for 4.281) 
+Starting NettyDubboMain on LAPTOP-B8AN4EB4 with PID 20716 (E:\WorkSpace\Git\Java-Parent\netty-dubbo\target\classes started by WF in E:\WorkSpace\Git\Java-Parent) 
+No active profile set, falling back to default profiles: default 
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@14555e0a: startup date [Thu Jan 14 15:57:07 CST 2021]; root of context hierarchy 
+Tomcat initialized with port(s): 8088 (http) 
+Root WebApplicationContext: initialization completed in 925 ms 
+Servlet dispatcherServlet mapped to [/] 
+Mapping filter: 'characterEncodingFilter' to: [/*] 
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+Mapping filter: 'requestContextFilter' to: [/*] 
+【初始化ZooKeeper连接状态....】=CONNECTED 
+【执行初始化测试方法。。。。。。。。。。。。】 
+【执行初始化测试方法getData返回值。。。。。。。。。。。。】-->Test 
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@14555e0a: startup date [Thu Jan 14 15:57:07 CST 2021]; root of context hierarchy 
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+Registering beans for JMX exposure on startup 
+Tomcat started on port(s): 8088 (http) with context path '' 
+Started NettyDubboMain in 2.083 seconds (JVM running for 3.77) 
+Starting NettyDubboMain on LAPTOP-B8AN4EB4 with PID 1192 (E:\WorkSpace\Git\Java-Parent\netty-dubbo\target\classes started by WF in E:\WorkSpace\Git\Java-Parent) 
+No active profile set, falling back to default profiles: default 
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2cd2a21f: startup date [Thu Jan 14 16:21:36 CST 2021]; root of context hierarchy 
+Tomcat initialized with port(s): 8088 (http) 
+Root WebApplicationContext: initialization completed in 1270 ms 
+Servlet dispatcherServlet mapped to [/] 
+Mapping filter: 'characterEncodingFilter' to: [/*] 
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+Mapping filter: 'requestContextFilter' to: [/*] 
+【Watcher监听事件】=SyncConnected 
+【监听路径为】=null 
+【监听的类型为】=None 
+【初始化ZooKeeper连接状态....】=CONNECTED 
+【执行初始化测试方法。。。。。。。。。。。。】 
+开始创建节点：/netty-dubbo， 数据：Test 
+【创建持久化节点异常】/netty-dubbo,Test,org.apache.zookeeper.KeeperException$NodeExistsException: KeeperErrorCode = NodeExists for /netty-dubbo 
+【执行初始化测试方法getData返回值。。。。。。。。。。。。】-->Test 
+准备查询节点Data,path：/netty-dubbo 
+准备查询节点Stat，path：/netty-dubbo 
+结束查询节点Stat，path：/netty-dubbo，version：0 
+结束查询节点Data,path：/netty-dubbo，Data：Test 
+【执行初始化测试方法getData返回值。。。。。。。。。。。。】-->Test 
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2cd2a21f: startup date [Thu Jan 14 16:21:36 CST 2021]; root of context hierarchy 
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+Registering beans for JMX exposure on startup 
+Tomcat started on port(s): 8088 (http) with context path '' 
+Started NettyDubboMain in 2.641 seconds (JVM running for 4.565) 
+Starting NettyDubboMain on LAPTOP-B8AN4EB4 with PID 1632 (E:\WorkSpace\Git\Java-Parent\netty-dubbo\target\classes started by WF in E:\WorkSpace\Git\Java-Parent) 
+No active profile set, falling back to default profiles: default 
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2cd2a21f: startup date [Thu Jan 14 17:15:05 CST 2021]; root of context hierarchy 
+Tomcat initialized with port(s): 8088 (http) 
+Root WebApplicationContext: initialization completed in 1129 ms 
+Servlet dispatcherServlet mapped to [/] 
+Mapping filter: 'characterEncodingFilter' to: [/*] 
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+Mapping filter: 'requestContextFilter' to: [/*] 
+【Watcher监听事件】=SyncConnected 
+【监听路径为】=null 
+【监听的类型为】=None 
+【初始化ZooKeeper连接状态....】=CONNECTED 
+【执行初始化测试方法。。。。。。。。。。。。】 
+开始创建节点：/netty-dubbo， 数据：Test 
+【创建持久化节点异常】/netty-dubbo,Test,org.apache.zookeeper.KeeperException$NodeExistsException: KeeperErrorCode = NodeExists for /netty-dubbo 
+【执行初始化测试方法getData返回值。。。。。。。。。。。。】-->Test 
+准备查询节点Data,path：/netty-dubbo 
+准备查询节点Stat，path：/netty-dubbo 
+结束查询节点Stat，path：/netty-dubbo，version：0 
+结束查询节点Data,path：/netty-dubbo，Data：Test 
+【执行初始化测试方法getData返回值。。。。。。。。。。。。】-->Test 
+【Watcher监听事件】=SyncConnected 
+【监听路径为】=/netty-dubbo 
+【监听的类型为】=NodeDeleted 
+Error while calling watcher  
+java.lang.NullPointerException: null
+	at com.wf.netty.utils.ZkWatcher.process(ZkWatcher.java:45) ~[classes/:?]
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:533) [zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:508) [zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2cd2a21f: startup date [Thu Jan 14 17:15:05 CST 2021]; root of context hierarchy 
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+Registering beans for JMX exposure on startup 
+Tomcat started on port(s): 8088 (http) with context path '' 
+Started NettyDubboMain in 2.337 seconds (JVM running for 4.022) 
+Session 0x1000163df4f0004 for server activate.navicat.com/127.0.0.1:2181, unexpected error, closing socket connection and attempting reconnect 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_111]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_111]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_111]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_111]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68) ~[zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:366) ~[zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141) [zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+【Watcher监听事件】=Disconnected 
+【监听路径为】=null 
+【监听的类型为】=None 
+session timeout [3000] is less than connection timeout [15000] 
+session timeout [3000] is less than connection timeout [15000] 
+服务com.wf.netty--127.0.0.1:8080注册成功:/curator-test/com.wf.netty/127.0.0.1:8080 
+session timeout [300] is less than connection timeout [15000] 
+服务com.wf.netty--127.0.0.1:8080注册成功:/curator-test/com.wf.netty/127.0.0.1:8080 
+session timeout [300] is less than connection timeout [15000] 
+服务com.wf.netty--127.0.0.1:8080注册成功:/curator-test/com.wf.netty/127.0.0.1:8080 
+session timeout [300] is less than connection timeout [15000] 
+服务com.wf.netty--127.0.0.1:8080注册成功:/curator-test/com.wf.netty/127.0.0.1:8080 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+服务com.wf.netty--127.0.0.2:8080注册成功:/curator-test/com.wf.netty/127.0.0.2:8080 
+session timeout [300] is less than connection timeout [15000] 
+服务com.wf.netty.service.MyService--127.0.0.1:8080注册成功:/curator-test/com.wf.netty.service.MyService/127.0.0.1:8080 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+服务com.wf.netty.service.MyService1.0.0--127.0.0.1:8088注册成功:/curator-test/com.wf.netty.service.MyService1.0.0/127.0.0.1:8088 
+netty服务断启动成功，等待客户端连接: 
+session timeout [300] is less than connection timeout [15000] 
+服务com.wf.netty.service.MyService--127.0.0.1:8088注册成功:/curator-test/com.wf.netty.service.MyService/127.0.0.1:8088 
+netty服务断启动成功，等待客户端连接: 
+session timeout [300] is less than connection timeout [15000] 
+RPC调用成功啦...我是客户端 

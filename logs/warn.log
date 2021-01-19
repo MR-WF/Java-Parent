@@ -1,0 +1,61 @@
+【创建持久化节点异常】/zk-watcher-2,测试,java.lang.NullPointerException 
+【创建持久化节点异常】/zk-watcher-2,zz,java.lang.NullPointerException 
+【创建持久化节点异常】/zk-watcher-2,zz,java.lang.NullPointerException 
+【创建持久化节点异常】/netty-dubbo,Test,org.apache.zookeeper.KeeperException$NodeExistsException: KeeperErrorCode = NodeExists for /netty-dubbo 
+【创建持久化节点异常】/netty-dubbo,Test,org.apache.zookeeper.KeeperException$NodeExistsException: KeeperErrorCode = NodeExists for /netty-dubbo 
+Error while calling watcher  
+java.lang.NullPointerException: null
+	at com.wf.netty.utils.ZkWatcher.process(ZkWatcher.java:45) ~[classes/:?]
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:533) [zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:508) [zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+Error while calling watcher  
+java.lang.NullPointerException: null
+	at com.wf.netty.utils.ZkWatcher.process(ZkWatcher.java:45) ~[classes/:?]
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:533) [zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:508) [zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+Session 0x1000163df4f0004 for server activate.navicat.com/127.0.0.1:2181, unexpected error, closing socket connection and attempting reconnect 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_111]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_111]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_111]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_111]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68) ~[zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:366) ~[zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141) [zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+Session 0x1000163df4f0004 for server activate.navicat.com/127.0.0.1:2181, unexpected error, closing socket connection and attempting reconnect 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_111]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_111]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_111]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_111]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68) ~[zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:366) ~[zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141) [zookeeper-3.4.14.jar:3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf]
+session timeout [3000] is less than connection timeout [15000] 
+session timeout [3000] is less than connection timeout [15000] 
+session timeout [3000] is less than connection timeout [15000] 
+session timeout [3000] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
+session timeout [300] is less than connection timeout [15000] 
