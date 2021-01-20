@@ -9,6 +9,8 @@
         <module>spring-aop</module>
         <module>netty</module>
         <module>netty-dubbo</module>
+        <module>netty-dubbo2</module>
+        <module>netty-dubbo2-demo</module>
     </modules>
 
     <parent>
@@ -34,6 +36,10 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
         <!--
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -41,13 +47,11 @@
             <version>${springboot.group.version}</version>
         </dependency>
         -->
-        <!--
        <dependency>
            <groupId>org.springframework.boot</groupId>
            <artifactId>spring-boot-starter-web</artifactId>
            <version>${springboot.group.version}</version>
         </dependency>
-         -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -70,6 +74,16 @@
                  <version>4.13.1</version>
                  <scope>test</scope>
              </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.10</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.73</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

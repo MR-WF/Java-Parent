@@ -69,13 +69,9 @@ public class RpcServerHandler extends ChannelInboundHandlerAdapter {
                     return RpcResponse.fail(ResponseCodeEnum.FILE, "未找到["+rpcRequset.getClassName()+"]方法");
                 }
                 return RpcResponse.success(method.invoke(clazz, params));
-            } catch (NoSuchMethodException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
-                return RpcResponse.fail(ResponseCodeEnum.FILE, "未找到["+rpcRequset.getClassName()+"]方法");
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
-            } catch (InvocationTargetException e) {
-                e.printStackTrace();
+                return RpcResponse.fail(ResponseCodeEnum.FILE, e.getMessage());
             }
         }else {
             return RpcResponse.fail(ResponseCodeEnum.FILE, "未找到["+rpcRequset.getClassName()+"]服务");

@@ -1,11 +1,9 @@
 package com.wf.netty.utils.server;
 
-import com.wf.netty.annotation.RpcService;
-import com.wf.netty.service.MyService;
+import com.wf.netty.annotations.RpcService;
 import com.wf.netty.service.RegisterCenter;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
-import io.netty.channel.nio.AbstractNioByteChannel;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
@@ -80,7 +78,7 @@ public class RpcServer {
         ChannelFuture future = null;
         try {
             future = serverBootstrap.bind(ip,port).sync();
-            logger.info("netty服务断启动成功，等待客户端连接:");
+            logger.info("netty服务启动成功，等待客户端连接:");
             future.channel().closeFuture().sync();
         } catch (InterruptedException e) {
             e.printStackTrace();

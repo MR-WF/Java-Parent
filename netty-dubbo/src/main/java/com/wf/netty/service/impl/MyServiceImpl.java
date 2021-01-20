@@ -1,6 +1,6 @@
 package com.wf.netty.service.impl;
 
-import com.wf.netty.annotation.RpcService;
+import com.wf.netty.annotations.RpcService;
 import com.wf.netty.service.MyService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
