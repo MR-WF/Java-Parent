@@ -29,7 +29,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <springboot.group.version>2.0.3.RELEASE</springboot.group.version>
+        <springboot.group.version>2.5.12</springboot.group.version>
     </properties>
     <dependencies>
         <dependency>
